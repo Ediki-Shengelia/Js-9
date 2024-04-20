@@ -1,0 +1,53 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  display: none;
+}
+.icon {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+}
+.overlay.active {
+  display: block;
+}
+.post {
+  max-width: 700px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: aqua;
+}
+.add-icon {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50px;
+  font-size: 35px;
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  display: grid;
+  place-items: center;
+}
+.overlay-add-post {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: aqua;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.overlay-add-post.addactive {
+  display: block;
+}
